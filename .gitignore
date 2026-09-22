@@ -1,0 +1,16 @@
+venv/
+__pycache__/
+*.pyc
+.env
+data/raw/*
+data/processed/*
+models/baseline/*
+models/quantized/*
+models/distilled/*
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+!models/baseline/.gitkeep
+!models/quantized/.gitkeep
+!models/distilled/.gitkeep
+.mlflow/
+mlruns/

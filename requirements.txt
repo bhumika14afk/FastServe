@@ -1,0 +1,10 @@
+fastapi
+uvicorn
+transformers
+huggingface_hub
+torch
+datasets
+mlflow
+locust
+pyyaml
+pytest

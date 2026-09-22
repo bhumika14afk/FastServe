@@ -1,0 +1,12 @@
+# Model configuration for FastServe variants
+baseline:
+  name: "meta-llama/Meta-Llama-3-8B"
+  precision: "fp16"
+
+quantized:
+  method: "gptq"  # or "awq"
+  bits: 4
+
+distilled:
+  base_size: "1B"
+  teacher: "baseline"
